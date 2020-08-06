@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <title>Kartu Indonesia Pintar Kuliah
+        </title>
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="https://kip-kuliah.kemdikbud.go.id/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://kip-kuliah.kemdikbud.go.id/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://kip-kuliah.kemdikbud.go.id/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://kip-kuliah.kemdikbud.go.id/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="https://kip-kuliah.kemdikbud.go.id/img/favicon/safari-pinned-tab.svg&quot; color=&quot;#5bbad5">
+    <link rel="shortcut icon" href="https://kip-kuliah.kemdikbud.go.id/img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="msapplication-config" content="/img/favicon/browserconfig.xml">        <meta name="theme-color" content="#673ab7">
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+        <!-- Styles -->
+        <link href="https://kip-kuliah.kemdikbud.go.id/css/styleLanding.css?v=1.1" rel="stylesheet">
+        <link href="https://kip-kuliah.kemdikbud.go.id/css/materialdesignicons.min.css" rel="stylesheet">
+        <link href="https://kip-kuliah.kemdikbud.go.id/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/v/bs4/dt-1.10.18/b-1.5.6/b-colvis-1.5.6/b-flash-1.5.6/b-html5-1.5.6/b-print-1.5.6/r-2.2.2/datatables.min.css"/>
+        <style>
+            .pagination {
+                flex-wrap: wrap !important;
+            }
+            div.dataTables_info {
+               white-space: normal !important;
+            }
+            div.dataTables_wrapper div.dataTables_processing {
+                background-color: #673ab7;
+                color: #fff;
+            }
+        </style>
+            </head>
+    <body>
+        <!--Navbar Start-->
+        <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark">
+            <div class="container-fluid">
+                <!-- LOGO -->
+                <a class="logo text-uppercase" href="/">
+                    <img src="https://kip-kuliah.kemdikbud.go.id/img/logo.png" alt="" class="logo-light" height="60" />
+                    <img src="https://kip-kuliah.kemdikbud.go.id/img/logo.png" alt="" class="logo-dark" height="60" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="mdi mdi-menu">
+                    </i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mx-auto navbar-center" id="mySidenav">
+    <li class="nav-item active">
+        <a href="#home" class="nav-link">Beranda
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="#jadwal" class="nav-link">Jadwal
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="#berita" class="nav-link">Berita
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="#profil" class="nav-link">Profil Perguruan Tinggi
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="#kontak" class="nav-link">Kontak Kami
+        </a>
+    </li> 
+</ul>
+                                        <button onclick="window.location.href = 'https://kip-kuliah.kemdikbud.go.id/siswa/auth/login';" class="btn btn-info navbar-btn">Login Siswa
+                    </button>
+                                    </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Content start -->
+        <!-- home start -->
+<section class="bg-home bg-hexa" id="home">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleControls" data-slide-to="1" class=""></li>
+                            <li data-target="#carouselExampleControls" data-slide-to="2" class=""></li>
+                            <li data-target="#carouselExampleControls" data-slide-to="3" class=""></li>
+                            <li data-target="#carouselExampleControls" data-slide-to="4" class=""></li>
+                            <li data-target="#carouselExampleControls" data-slide-to="5" class=""></li>
+                            <li data-target="#carouselExampleControls" data-slide-to="6" class=""></li>
+                            <li data-target="#carouselExampleControls" data-slide-to="7" class=""></li>
+                            <li data-target="#carouselExampleControls" data-slide-to="8" class=""></li>
+                            <li data-target="#carouselExampleControls" data-slide-to="9" class=""></li>
+                            <li data-target="#carouselExampleControls" data-slide-to="10" class=""></li>
+                    </ol>
+        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                    <div class="home-center">
+                        <div class="home-desc-center">
+                            <div class="container-fluid">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6 order-last-">
+                                        <div class="home-title mo-mb-20 text-white">
+                                            <h1 class="mb-4 text-white">
+                                                BANTUAN PENDIDIKAN UKT/SPP                                            </h1>
+                                            <p class="text-white-50 home-desc">
+                                                <p>Pemerintah Indonesia memberikan Bantuan Pendidikan UKT/SPP untuk mahasiswa Semester 3, 5 dan 7 pada TA. 2020/2021&nbsp;sebagai implementasi dari arah kebijakan pendidikan tinggi untuk mengantisipasi dampak Covid-19 serta perluasan cakupan mahasiswa penerima manfaat KIP Kuliah&nbsp;. Informasi detil terkait program ini dapat diperoleh di perguruan tinggi masing-masing mulai Senin, 6 Juli 2020.&nbsp;</p>                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 offset-xl-1 col-lg-5 offset-lg-1 col-md-7 order-first-" style="margin: 0 auto;">
+                                        <div class="home-img position-relative"> 
+                                            <img src="/uploads/informasi/kh1i2xurzSUOw5N8DdmaqELvpRIPnl_tgl20200703004722.png" alt="" class="home-first-img">
+                                            <!-- <img src="https://kip-kuliah.kemdikbud.go.id/img/kartu-kipk.png" alt="" class="home-second-img mx-auto d-block"> -->
+                                            <!--<img src="https://kip-kuliah.kemdikbud.go.id/img/kartu-kipk.png" alt="" class="home-third-img">-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end row -->
+                            </div>
+                            <!-- end container-fluid -->
+                        </div>
+                    </div>
+                </div>
+                            <div class="carousel-item ">
+                    <div class="home-center">
+                        <div class="home-desc-center">
+                            <div class="container-fluid">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6 order-last-">
+                                        <div class="home-title mo-mb-20 text-white">
+                                            <h1 class="mb-4 text-white">
+                                                KLARIFIKASI BERITA TENTANG KIP-KULIAH                                            </h1>
+                                            <p class="text-white-50 home-desc">
+                                                <p>Sehubungan dengan beredarnya informasi tentang program KIP Kuliah di media sosial (di samping), berikut kami sampaikan beberapa klarifikasi berikut:</p><p>1. Puslapdik bukan sebagai pihak yang menyebarkan berita tersebut. Semua informasi resmi kami sampaikan via web KIP Kuliah.&nbsp;</p><p>2. Sesuai pedoman pendaftaran KIP Kuliah, peserta KIP Kuliah adalah siswa SMA/sederajat yang lulus pada tahun berjalan atau lulus 2 (dua) tahun sebelumnya, memiliki potensi akademik baik tetapi memiliki keterbatasan ekonomi dan lulus seleksi penerimaan mahasiswa baru pada Prodi dengan Akreditasi A atau B (dimungkinkan dengan pertimbangan tertentu pada Prodi dengan Akreditasi C).</p><p>3. Keunggulan bagi penerima KIP Kuliah: pembebasan biaya pendaftaran seleksi masuk PT, pembebasan biaya kuliah dan memperoleh bantuan biaya hidup.&nbsp;</p><p>4. Puslapdik akan membayarkan biaya kuliah sebesar Rp. 2.4 jt/semester langsung ke PT.</p><p>5. Siswa penerima program KIP Kuliah akan memperoleh bantuan biaya hidup sebesar Rp. 700rb/bulan yang dibayarkan setiap semester, sesuai masa studi normal (S1 maksimal 8 Semester, total selama studi maksimal Rp. 33.6 jt; D3 maksimal 6 Semester, total selama studi maksimal Rp. 25.2 jt; D2 maksimal 4 Semester, total selama studi maksimal Rp. 16.8 jt; D1 maksimal 2 Semester, total selama studi maksimal Rp. 8.4 jt).&nbsp;</p><p>6. Untuk mahasiswa pada Prodi yang harus mengikuti Program Profesi juga akan menerima pembebasan biaya kuliah dan bantuan biaya hidup (seperti poin 4 dan 5). Profesi Dokter, Dokter Gigi dan Dokter Hewan akan menerima bantuan biaya hidup maksimal 4 semester (total selama studi maksimal Rp. 16.8 jt). Sedangkan untuk Profesi Ners, Apoteker dan Guru akan menerima bantuan biaya hidup maksimal 2 semester (total selama studi maksimal Rp. 8.4 jt).&nbsp;</p>                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 offset-xl-1 col-lg-5 offset-lg-1 col-md-7 order-first-" style="margin: 0 auto;">
+                                        <div class="home-img position-relative"> 
+                                            <img src="/uploads/informasi/qs10dgiuKBCNp8y9It4OwS7Q2Prxco_tgl20200622111634.png" alt="" class="home-first-img">
+                                            <!-- <img src="https://kip-kuliah.kemdikbud.go.id/img/kartu-kipk.png" alt="" class="home-second-img mx-auto d-block"> -->
+                                            <!--<img src="https://kip-kuliah.kemdikbud.go.id/img/kartu-kipk.png" alt="" class="home-third-img">-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end row -->
+                            </div>
+                            <!-- end container-fluid -->
+                        </div>
+                    </div>
+                </div>
+                            <div class="carousel-item ">
+                    <div class="home-center">
+                        <div class="home-desc-center">
+                            <div class="container-fluid">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6 order-last-">
+                                        <div class="home-title mo-mb-20 text-white">
+                                            <h1 class="mb-4 text-white">
+                                                MAINTENANCE SISTEM KIP-KULIAH                                            </h1>
+                                            <p class="text-white-50 home-desc">
+                                                <p>Sistem KIP-Kuliah melakukan <i>maintenance</i>&nbsp;pada hari Rabu 17 Juni 2020 20.00 - 21.00 WIB. Beberapa layanan akan terdapat gangguan untuk sementara seperti pendaftaran peserta dan pengiriman email. Sistem akan kembali normal pada pukul 21.00 WIB.&nbsp;</p>                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 offset-xl-1 col-lg-5 offset-lg-1 col-md-7 order-first-" style="margin: 0 auto;">
+                                        <div class="home-img position-relative"> 
+                                            <img src="/uploads/informasi/zQBtPMyhUKD07w2OnN9sdRmIGriecJ_tgl20200617200743.png" alt="" class="home-first-img">
+                                            <!-- <img src="https://kip-kuliah.kemdikbud.go.id/img/kartu-kipk.png" alt="" class="home-second-img mx-auto d-block"> -->
+                                            <!--<img src="https://kip-kuliah.kemdikbud.go.id/img/kartu-kipk.png" alt="" class="home-third-img">-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end row -->
+                            </div>
+                            <!-- end container-fluid -->
+                        </div>
+                    </div>
+                </div>
+                            <div class="carousel-item ">
+                    <div class="home-center">
+                        <div class="home-desc-center">
+                            <div class="container-fluid">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6 order-last-">
+                                        <div class="home-title mo-mb-20 text-white">
+                                            <h1 class="mb-4 text-white">
+                                                KIP-KULIAH UNTUK PENDAFTAR SBMPN                                            </h1>
+                                            <p class="text-white-50 home-desc">
+                                                <p>Peserta KIP-Kuliah yang mendaftar seleksi SBMPN diharapkan untuk segera melengkapi berkas dan memilih seleksi SBMPN di Menu Seleksi sistem pendaftaran KIP-Kuliah. Simpan KAP dan PIN yang diperoleh untuk kemudian dimasukkan ke sistem pendaftaran SBMPN. Selamat berjuang !</p>                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 offset-xl-1 col-lg-5 offset-lg-1 col-md-7 order-first-" style="margin: 0 auto;">
+                                        <div class="home-img position-relative"> 
+                                            <img src="/uploads/informasi/0Ml3KN9H7BJksmTfaiznhSLCrde6EA_tgl20200609134414.png" alt="" class="home-first-img">
+                                            <!-- <img src="https://kip-kuliah.kemdikbud.go.id/img/kartu-kipk.png" alt="" class="home-second-img mx-auto d-block"> -->
+                                            <!--<img src="https://kip-kuliah.kemdikbud.go.id/img/kartu-kipk.png" alt="" class="home-third-img">-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end row -->
+                            </div>
+                            <!-- end container-fluid -->
+                        </div>
+                    </div>
+                </div>
+                            <div class="carousel-item ">
+                    <div class="home-center">
+                        <div class="home-desc-center">
+                            <div class="container-fluid">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6 order-last-">
+                                        <div class="home-title mo-mb-20 text-white">
+                                            <h1 class="mb-4 text-white">
+                                                KIP-KULIAH UNTUK PESERTA UTBK-SBMPTN                                            </h1>
+                                            <p class="text-white-50 home-desc">
+                                                <p>Pilihan jalur seleksi SBMPTN di sistem KIP-Kuliah dibuka mulai tanggal 18 Mei s.d. 19 Juni 2020. Siswa pendaftar SBMPTN diharapkan untuk segera melengkapi berkas dan memilih seleksi SBMPTN di Menu Seleksi sistem KIP-Kuliah sebelum mendaftar UTBK-SBMPTN di web LTMPT. &nbsp;Semangat menggapai asa !<br></p>                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 offset-xl-1 col-lg-5 offset-lg-1 col-md-7 order-first-" style="margin: 0 auto;">
+                                        <div class="home-img position-relative"> 
+                                            <img src="/uploads/informasi/BPnTFLh4kxlCs26HdpigMybKJSDjOo_tgl20200609133926.png" alt="" class="home-first-img">
+                                            <!-- <img src="https://kip-kuliah.kemdikbud.go.id/img/kartu-kipk.png" alt="" class="home-second-img mx-auto d-block"> -->
+                                            <!--<img src="https://kip-kuliah.kemdikbud.go.id/img/kartu-kipk.png" alt="" class="home-third-img">-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end row -->
+                            </div>
+                            <!-- end container-fluid -->
+                        </div>
+                    </div>
+                </div>
+                            <div class="carousel-item ">
+                    <div class="home-center">
+                        <div class="home-desc-center">
+                            <div class="container-fluid">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6 order-last-">
+                                        <div class="home-title mo-mb-20 text-white">
+                                            <h1 class="mb-4 text-white">
+                                                KIP-KULIAH KEMENAG RI                                            </h1>
+                                            <p class="text-white-50 home-desc">
+                                                <p>Siswa yang akan melanjutkan kuliah ke Perguruan Tinggi Keagamaan Negeri (seperti UIN/IAIN/STAIN, PTKN Hindu, Buddha, Kristen, Katolik, dan Konghucu) maupun Perguruan Tinggi Keagamaan Swasta, silahkan melakukan pendaftaran KIP Kuliah di Kementerian Agama (Kemenag) RI.</p>                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 offset-xl-1 col-lg-5 offset-lg-1 col-md-7 order-first-" style="margin: 0 auto;">
+                                        <div class="home-img position-relative"> 
+                                            <img src="/uploads/informasi/4SuDcf1QFNkbGLr659Pqwhas3mTope_tgl20200609134635.png" alt="" class="home-first-img">
+                                            <!-- <img src="https://kip-kuliah.kemdikbud.go.id/img/kartu-kipk.png" alt="" class="home-second-img mx-auto d-block"> -->
+                                            <!--<img src="https://kip-kuliah.kemdikbud.go.id/img/kartu-kipk.png" alt="" class="home-third-img">-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end row -->
+                            </div>
+                            <!-- end container-fluid -->
+                        </div>
+                    </div>
+                </div>
+                            <div class="carousel-item ">
+                    <div class="home-center">
+                        <div class="home-desc-center">
+                            <div class="container-fluid">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6 order-last-">
+                                        <div class="home-title mo-mb-20 text-white">
+                                            <h1 class="mb-4 text-white">
+                                                ADA KENDALA PENDAFTARAN?                                            </h1>
+                                            <p class="text-white-50 home-desc">
+                                                <p><span style="font-family: Nunito;">Apabila ada kendala NIK, NISN dan NPSN yang tidak terbaca oleh sistem KIP-Kuliah,&nbsp;Silahkan koordinasi dengan operator DAPODIK/EMIS di sekolah masing-masing untuk perbaikan sumber data secara mandiri oleh operator di&nbsp;</span><font color="#000000" style="background-color: rgb(255, 255, 0);"><a href="http://vervalpd.data.kemdikbud.go.id/" target="_blank">http://vervalpd.data.kemdikbud.go.id/</a><font face="Nunito"><span style="font-size: 14.4px;"><a href="http://vervalpd.data.kemdikbud.go.id/" target="_blank"></a>&nbsp;&nbsp;</span></font></font></p><p><span style="font-family: Nunito;">Bagi siswa lulusan silahkan lakukan pengajuan perbaikan di Verval Lulusan di alamat<a href="http://pd.data.kemdikbud.go.id/index.php?r=pengajuan/PengajuanLulusan" target="_blank">&nbsp;</a><span style="background-color: rgb(255, 255, 0); color: rgb(255, 255, 255);"><a href="http://pd.data.kemdikbud.go.id/index.php?r=pengajuan/PengajuanLulusan" target="_blank">http://pd.data.kemdikbud.go.id/index.php?r=pengajuan/PengajuanLulusan</a></span></span></p>                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 offset-xl-1 col-lg-5 offset-lg-1 col-md-7 order-first-" style="margin: 0 auto;">
+                                        <div class="home-img position-relative"> 
+                                            <img src="/uploads/informasi/Os0LGgkB3DwIlMqytTdPfeNv1cxio8_tgl20200228125607.png" alt="" class="home-first-img">
+                                            <!-- <img src="https://kip-kuliah.kemdikbud.go.id/img/kartu-kipk.png" alt="" class="home-second-img mx-auto d-block"> -->
+                                            <!--<img src="https://kip-kuliah.kemdikbud.go.id/img/kartu-kipk.png" alt="" class="home-third-img">-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end row -->
+                            </div>
+                            <!-- end container-fluid -->
+                        </div>
+                    </div>
+                </div>
+                            <div class="carousel-item ">
+                    <div class="home-center">
+                        <div class="home-desc-center">
+                            <div class="container-fluid">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6 order-last-">
+                                        <div class="home-title mo-mb-20 text-white">
+                                            <h1 class="mb-4 text-white">
+                                                AYO KULIAH                                            </h1>
+                                            <p class="text-white-50 home-desc">
+                                                <p><span style="font-size: 14.4px;">KIP-Kuliah memberikan akses kepada seluruh siswa di Indonesia untuk menggapai cita-cita melalui pendidikan tinggi. Ayo segera cari kampus idamanmu. KIP-Kuliah berlaku untuk jalur seleksi masuk perguruan tinggi SNMPTN, SBMPTN, SNMPN, SBMPN, Seleksi mandiri PTN dan seleksi mandiri PTS.</span><br></p>                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 offset-xl-1 col-lg-5 offset-lg-1 col-md-7 order-first-" style="margin: 0 auto;">
+                                        <div class="home-img position-relative"> 
+                                            <img src="/uploads/informasi/EsjdG0orbiaQTReJS8gOnxf24HNmkq_tgl20200227000813.png" alt="" class="home-first-img">
+                                            <!-- <img src="https://kip-kuliah.kemdikbud.go.id/img/kartu-kipk.png" alt="" class="home-second-img mx-auto d-block"> -->
+                                            <!--<img src="https://kip-kuliah.kemdikbud.go.id/img/kartu-kipk.png" alt="" class="home-third-img">-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end row -->
+                            </div>
+                            <!-- end container-fluid -->
+                        </div>
+                    </div>
+                </div>
+                            <div class="carousel-item ">
+                    <div class="home-center">
+                        <div class="home-desc-center">
+                            <div class="container-fluid">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6 order-last-">
+                                        <div class="home-title mo-mb-20 text-white">
+                                            <h1 class="mb-4 text-white">
+                                                PENDAFTARAN KIP-KULIAH                                            </h1>
+                                            <p class="text-white-50 home-desc">
+                                                <p><span style="font-size: 14.4px;">Ayo mendaftar KIP Kuliah menggunakan&nbsp;</span><span style="font-weight: bolder; font-size: 14.4px;">Nomor Induk Siswa Nasional (NISN), Nomor Pokok Sekolah Nasional (NPSN)</span><span style="font-size: 14.4px;">, dan&nbsp;</span><span style="font-weight: bolder; font-size: 14.4px;">Nomor Induk Kependudukan (NIK)</span><span style="font-size: 14.4px;">.&nbsp;&nbsp;</span><br></p>                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 offset-xl-1 col-lg-5 offset-lg-1 col-md-7 order-first-" style="margin: 0 auto;">
+                                        <div class="home-img position-relative"> 
+                                            <img src="/uploads/informasi/yJUINulhqtOgGxozKfBbFAncw9054j_tgl20200227000800.png" alt="" class="home-first-img">
+                                            <!-- <img src="https://kip-kuliah.kemdikbud.go.id/img/kartu-kipk.png" alt="" class="home-second-img mx-auto d-block"> -->
+                                            <!--<img src="https://kip-kuliah.kemdikbud.go.id/img/kartu-kipk.png" alt="" class="home-third-img">-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end row -->
+                            </div>
+                            <!-- end container-fluid -->
+                        </div>
+                    </div>
+                </div>
+                            <div class="carousel-item ">
+                    <div class="home-center">
+                        <div class="home-desc-center">
+                            <div class="container-fluid">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6 order-last-">
+                                        <div class="home-title mo-mb-20 text-white">
+                                            <h1 class="mb-4 text-white">
+                                                PERTANYAAN SEPUTAR KIP-KULIAH?                                            </h1>
+                                            <p class="text-white-50 home-desc">
+                                                <p>Punya pertanyaan seputar KIP-Kuliah ? Frequently Asked Question (FAQ) dapat di akses di halaman&nbsp;<a href="https://kip-kuliah.kemdikbud.go.id/panduan" style="background-color: rgb(255, 255, 0);">https://kip-kuliah.kemdikbud.go.id/panduan</a><br></p>                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 offset-xl-1 col-lg-5 offset-lg-1 col-md-7 order-first-" style="margin: 0 auto;">
+                                        <div class="home-img position-relative"> 
+                                            <img src="/uploads/informasi/9E1Dcgm0KkdiUQyJG37wqhCMosTPbu_tgl20200227000725.png" alt="" class="home-first-img">
+                                            <!-- <img src="https://kip-kuliah.kemdikbud.go.id/img/kartu-kipk.png" alt="" class="home-second-img mx-auto d-block"> -->
+                                            <!--<img src="https://kip-kuliah.kemdikbud.go.id/img/kartu-kipk.png" alt="" class="home-third-img">-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end row -->
+                            </div>
+                            <!-- end container-fluid -->
+                        </div>
+                    </div>
+                </div>
+                            <div class="carousel-item ">
+                    <div class="home-center">
+                        <div class="home-desc-center">
+                            <div class="container-fluid">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6 order-last-">
+                                        <div class="home-title mo-mb-20 text-white">
+                                            <h1 class="mb-4 text-white">
+                                                KARTU INDONESIA PINTAR KULIAH                                            </h1>
+                                            <p class="text-white-50 home-desc">
+                                                <p><span style="font-size: 14.4px;">Pemerintah Indonesia terus berkomitmen untuk fokus meningkatkan pembangunan Sumberdaya Manusia melalui berbagai upaya cerdas. Kartu Indonesia Pintar Kuliah (KIP-Kuliah) adalah salah satu upaya untuk membantu asa para siswa yang memiliki keterbatasan ekonomi tetapi berprestasi untuk melanjutkan studi di perguruan tinggi.</span><br></p>                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 offset-xl-1 col-lg-5 offset-lg-1 col-md-7 order-first-" style="margin: 0 auto;">
+                                        <div class="home-img position-relative"> 
+                                            <img src="/uploads/informasi/dhTN5EAi9Irz2lc8kLsxtUm1HobFR0_tgl20200227000701.png" alt="" class="home-first-img">
+                                            <!-- <img src="https://kip-kuliah.kemdikbud.go.id/img/kartu-kipk.png" alt="" class="home-second-img mx-auto d-block"> -->
+                                            <!--<img src="https://kip-kuliah.kemdikbud.go.id/img/kartu-kipk.png" alt="" class="home-third-img">-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end row -->
+                            </div>
+                            <!-- end container-fluid -->
+                        </div>
+                    </div>
+                </div>
+                    </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a> 
+    </div> 
+</section>
+<!-- home end -->
+<!-- clients start -->
+<section class="p-0" id="nav-panduan">
+    <div class="container-fluid">
+    <div class="clients p-4 bg-white">
+        <div class="row">
+            <div class="col-md-4 offset-lg-2 offset-md-2">
+                <div class="client-images">
+                    <a href="https://kip-kuliah.kemdikbud.go.id/siswa/auth/login">
+                        <img src="https://kip-kuliah.kemdikbud.go.id/img/ICO3.svg" alt="logo-img" class="mx-auto img-fluid d-block">
+                    </a> 
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="client-images">
+                    <a href="/panduan">
+                        <img src="https://kip-kuliah.kemdikbud.go.id/img/ICO4.svg" alt="logo-img" class="mx-auto img-fluid d-block">
+                    </a> 
+                </div>
+            </div> 
+        </div> 
+        <!-- end row -->
+    </div>
+</div> 
+<!-- end container-fluid --></section>
+<!-- clients end -->
+<!-- features start -->
+<section class="section bg-light pt-2" id="jadwal">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="text-center mb-4 pb-1">
+                    <h2 class="mb-3">Jadwal Kartu Indonesia Pintar Kuliah
+                    </h2>
+                    <p class="text-muted">Tanggal penting jadwal pendaftaran dan penutupan Kartu Indonesia Pintar Kuliah Tahun 2020
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <div class="text-center">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>#
+                                    </th>
+                                    <th>Kegiatan
+                                    </th>
+                                    <th>Dibuka
+                                    </th>
+                                    <th>Ditutup
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                                                 
+                                <tr>
+                                    <td>
+                                        1
+                                    </td>
+                                    <td class="pl-sm-0 pl-md-5" style="text-align:left;">
+                                        Pendaftaran Akun Siswa KIP-Kuliah
+                                    </td>
+                                    <td>
+                                        26 Februari 2020
+                                    </td>
+                                    <td>
+                                        31 Oktober 2020
+                                    </td>
+                                </tr>
+                                                                 
+                                <tr>
+                                    <td>
+                                        2
+                                    </td>
+                                    <td class="pl-sm-0 pl-md-5" style="text-align:left;">
+                                        SNMPTN
+                                    </td>
+                                    <td>
+                                        02 Maret 2020
+                                    </td>
+                                    <td>
+                                        31 Maret 2020
+                                    </td>
+                                </tr>
+                                                                 
+                                <tr>
+                                    <td>
+                                        3
+                                    </td>
+                                    <td class="pl-sm-0 pl-md-5" style="text-align:left;">
+                                        Seleksi Mandiri PTN
+                                    </td>
+                                    <td>
+                                        18 Mei 2020
+                                    </td>
+                                    <td>
+                                        30 September 2020
+                                    </td>
+                                </tr>
+                                                                 
+                                <tr>
+                                    <td>
+                                        4
+                                    </td>
+                                    <td class="pl-sm-0 pl-md-5" style="text-align:left;">
+                                        SNMPN
+                                    </td>
+                                    <td>
+                                        25 Februari 2020
+                                    </td>
+                                    <td>
+                                        13 Maret 2020
+                                    </td>
+                                </tr>
+                                                                 
+                                <tr>
+                                    <td>
+                                        5
+                                    </td>
+                                    <td class="pl-sm-0 pl-md-5" style="text-align:left;">
+                                        UTBK-SBMPTN
+                                    </td>
+                                    <td>
+                                        18 Mei 2020
+                                    </td>
+                                    <td>
+                                        19 Juni 2020
+                                    </td>
+                                </tr>
+                                                                 
+                                <tr>
+                                    <td>
+                                        6
+                                    </td>
+                                    <td class="pl-sm-0 pl-md-5" style="text-align:left;">
+                                        SBMPN
+                                    </td>
+                                    <td>
+                                        18 Mei 2020
+                                    </td>
+                                    <td>
+                                        24 Juni 2020
+                                    </td>
+                                </tr>
+                                                                 
+                                <tr>
+                                    <td>
+                                        7
+                                    </td>
+                                    <td class="pl-sm-0 pl-md-5" style="text-align:left;">
+                                        Seleksi Mandiri PTS
+                                    </td>
+                                    <td>
+                                        08 Juli 2020
+                                    </td>
+                                    <td>
+                                        31 Oktober 2020
+                                    </td>
+                                </tr>
+                                                                                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <span>
+                    <b>Keterangan:
+                    </b> 
+                    <br> Jadwal dapat berubah sewaktu-waktu
+                </span>
+            </div>
+        </div>
+    </div> 
+    <!-- end container-fluid -->
+</section>
+<!-- features end -->
+<!-- available demos start -->
+<section class="section bg-light" id="berita">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="title text-center mb-3">
+                    <h2>Berita dan Pengumuman
+                    </h2>
+                    <p class="text-muted">Lihat berita dan pengumuman terbaru dari KIP Kuliah.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- end row -->
+        <div class="row align-items-center">
+            <div class="col-lg-4 offset-1 d-none d-lg-block d-md-none">
+                <div class="feature-img">
+                    <img src="https://kip-kuliah.kemdikbud.go.id/img/news-2.svg" alt="" class="img-fluid mx-auto d-block">
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="features-content" id="tempat-informasi">
+                    <a data-toggle="modal" id="getInformasi" data-target="#viewInformasi" data-url="https://kip-kuliah.kemdikbud.go.id/informasi/35" href="#.">
+        <h4 class="mb-3">
+            <i class="mdi mdi-album">
+            </i> KIP-KULIAH UNTUK SNMPTN
+        </h4>
+    </a>
+ 
+    <a data-toggle="modal" id="getInformasi" data-target="#viewInformasi" data-url="https://kip-kuliah.kemdikbud.go.id/informasi/34" href="#.">
+        <h4 class="mb-3">
+            <i class="mdi mdi-album">
+            </i> KIP-KULIAH UNTUK PENDAFTAR SNMPN
+        </h4>
+    </a>
+ 
+    <a data-toggle="modal" id="getInformasi" data-target="#viewInformasi" data-url="https://kip-kuliah.kemdikbud.go.id/informasi/32" href="#.">
+        <h4 class="mb-3">
+            <i class="mdi mdi-album">
+            </i> Pendaftaran KIP-Kuliah Jalur SNMPTN
+        </h4>
+    </a>
+ 
+    <a data-toggle="modal" id="getInformasi" data-target="#viewInformasi" data-url="https://kip-kuliah.kemdikbud.go.id/informasi/23" href="#.">
+        <h4 class="mb-3">
+            <i class="mdi mdi-album">
+            </i> Prosedur Pendaftaran KIP Kuliah
+        </h4>
+    </a>
+ 
+    <a data-toggle="modal" id="getInformasi" data-target="#viewInformasi" data-url="https://kip-kuliah.kemdikbud.go.id/informasi/22" href="#.">
+        <h4 class="mb-3">
+            <i class="mdi mdi-album">
+            </i> Syarat Pendaftaran KIP Kuliah
+        </h4>
+    </a>
+ 
+    <a data-toggle="modal" id="getInformasi" data-target="#viewInformasi" data-url="https://kip-kuliah.kemdikbud.go.id/informasi/21" href="#.">
+        <h4 class="mb-3">
+            <i class="mdi mdi-album">
+            </i> Keunggulan KIP Kuliah
+        </h4>
+    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- end row -->
+    </div> 
+    <!-- end container-fluid -->
+</section>
+<!-- available demos end -->
+<section class="section pb-0 bg-gradient-1" id="profil">
+    <div class="bg-shape">
+        <img src="https://kip-kuliah.kemdikbud.go.id/img/bg-shape-light.png" alt="" class="img-fluid mx-auto d-block">
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="title text-center mb-4">
+                    <h2 class="text-white">Cari Perguruan Tinggi/Program Studi Penerima KIP Kuliah
+                    </h2>
+                    <p class="text-white-50">Silahkan Ketik Nama Perguruan Tinggi/Program Studi
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-10"> 
+                <div class="custom-form p-md-5 p-sm-1 bg-white">  
+                    <div class="row">
+                        <div class="col-lg-12" id="tempat-table-pt">
+                            <div class="">
+                                <table class="table table-hover" id="table-pt">
+                                    <thead>
+                                        <tr>
+                                            <th class="nosort">#
+                                            </th>
+                                            <th>PERGURUAN TINGGI
+                                            </th>
+                                            <th>PRODI
+                                            </th>
+                                            <th>JENJANG
+                                            </th>
+                                            <th>AKREDITASI
+                                            </th>
+                                            <th class="nosort">AKSI
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tempat-profil">
+                    </div>
+                    <!-- end row -->
+                    <!-- end row -->
+                    <!-- end row --> 
+                </div>
+                <!-- end custom-form -->
+            </div>
+            <!-- end col -->
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container-fluid -->
+</section>
+ <!-- Modal informasi --> 
+<!-- Modal -->
+<section class="modal fade" id="viewInformasi" tabindex="-1" role="dialog" aria-labelledby="informasi" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content informasi-modal">
+        </div>
+    </div>
+</section>
+<!-- end Modal informasi -->
+        <!-- End Content -->
+
+        <!-- cta start -->
+        <section class="section-sm bg-light" id="kontak">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-md-9">
+                        <h2 class="mb-0 mo-mb-20">Hubungi kami di 
+                        </h2>
+                        <p class="mt-1">
+                            Pusat Layanan Pembiayaan Pendidikan
+                            <br/>
+                            Kementerian Pendidikan dan Kebudayaan Republik Indonesia
+                            <br/>
+                            Gedung C Lantai 13, Jl. Jenderal Sudirman, Senayan, Jakarta Pusat 10270
+                            <br/>
+                            <br />
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        
+                    </div>
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container-fluid -->
+        </section>
+        <!-- cta end -->
+        <!-- footer start -->
+        <footer class="bg-dark footer">
+            <div class="container-fluid"> 
+                <!-- end row -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="float-left pull-none">
+                            <p class="text-white-50">2020 &copy; Kartu Indonesia Pintar Kuliah oleh
+                                <a href="http://kemdikbud.go.id" target="_blank" class="text-white-50">Kemdikbud
+                                </a> 
+                            </p>
+                        </div>
+                        <div class="float-right pull-none">
+                            
+                        </div>
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- container-fluid -->
+        </footer>
+        <!-- footer end -->
+        <!-- Back to top -->    
+        <a href="#" class="back-to-top" id="back-to-top"> 
+            <i class="mdi mdi-chevron-up"> 
+            </i> 
+        </a>
+        <!-- javascript -->
+        <script src="https://kip-kuliah.kemdikbud.go.id/js/jquery.min.js">
+        </script>
+        <script src="https://kip-kuliah.kemdikbud.go.id/js/bootstrap.bundle.min.js">
+        </script>
+        <script src="https://kip-kuliah.kemdikbud.go.id/js/jquery.easing.min.js">
+        </script>
+        <script src="https://kip-kuliah.kemdikbud.go.id/js/scrollspy.min.js">
+        </script>
+        <script type="text/javascript" src="//cdn.datatables.net/v/bs4/dt-1.10.18/b-1.5.6/b-colvis-1.5.6/b-flash-1.5.6/b-html5-1.5.6/b-print-1.5.6/r-2.2.2/datatables.min.js">
+        </script>
+        <script src="https://kip-kuliah.kemdikbud.go.id/js/datatables.idn.js"></script>
+        <!-- custom js -->
+        <script src="https://kip-kuliah.kemdikbud.go.id/js/custom.js?v=1.1">
+        </script>
+        <!-- Start of kip-kuliah Zendesk Widget script -->
+        <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=23d014a9-7387-45c1-9931-60202f091520"> </script>
+        <!-- End of kip-kuliah Zendesk Widget script -->
+        <script>
+    $(document).ready(function (){
+        $(document).on('click', '#getInformasi', function(e){
+            e.preventDefault();
+            var url = $(this).data('url');
+            $('.informasi-modal').html('');
+            $('#modal-loader').show();
+            $.ajax({
+                url: url,
+                type: 'GET',
+                dataType: 'html'
+            })
+            .done(function(data){
+                // console.log(data);  
+                $('.informasi-modal').html('');
+                $('.informasi-modal').html(data);
+                // load response 
+                $('#modal-loader').hide();
+                // hide ajax loader   
+                })
+            .fail(function(){
+                $('#modal-loader').hide();
+            });
+        });
+
+        var table = $('#table-pt').DataTable({
+            "responsive": true,
+            "columnDefs": [
+                {
+                  "searchable": false,
+                  "orderable": false,
+                  "targets": "nosort"
+                },
+                {
+                  "targets": 3,
+                  "className": "text-center pr-1",
+                },
+                {
+                  "targets": 4,
+                  "className": "text-center pr-1",
+                }
+            ],
+            "order": [[ 1, 'asc' ]],
+            "processing": true,
+            "serverSide": true,
+            "searchDelay": 1000,
+            "ajax":{
+                "url": "https://kip-kuliah.kemdikbud.go.id/prodijson",
+                "dataType": "json",
+                "type": "POST",
+                "data":{
+                    _token: "1bsArUP0C0dlWSrfViyLDR0xjiMnZdlwDPaixyRI"
+                }
+            },
+            "columns": [
+                {
+                  "data": "no" },
+                {
+                  "data": "nama_pt" },
+                {
+                  "data": "nama_prodi" },
+                {
+                  "data": "jenjang" },
+                {
+                  "data": "akreditasi_prodi" },
+                {
+                  "data": "options" }
+            ]
+        });
+
+        var debounce = new $.fn.dataTable.Debounce(table);
+    });
+
+    $.fn.dataTable.Debounce = function ( table, options ) {
+        var tableId = table.settings()[0].sTableId;
+        $('.dataTables_filter input[aria-controls="' + tableId + '"]') // select the correct input field
+            .unbind() // Unbind previous default bindings
+            .bind('input', (delay(function (e) { // Bind our desired behavior
+                table.search($(this).val()).draw();
+                return;
+            }, 1000))); // Set delay in milliseconds
+    }
+    
+    function delay(callback, ms) {
+        var timer = 0;
+        return function () {
+            var context = this, args = arguments;
+            clearTimeout(timer);
+            timer = setTimeout(function () {
+                callback.apply(context, args);
+            }, ms || 0);
+        };
+    }
+
+    function getProfil(prodiId, pt) {
+        $.ajax({
+            url: "/prodi/" + prodiId + "-" + pt,
+            type: "GET",
+            dataType: "html",
+            success: function (data) {
+                $("#tempat-profil").html(data);
+                $('html, body').animate({
+                    scrollTop: $('#tempat-profil').offset().top 
+                }, 1500);
+            }
+        });
+    }
+</script>
+    </body>
+</html>
