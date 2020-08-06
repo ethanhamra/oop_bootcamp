@@ -1,5 +1,6 @@
 <?php
-    class animal{
-        public $default_property_legs = 2;
-        public $cold_blooded = false;
-    }
+require ('animal.php');
+
+$sheep = new Animal("shaun");
+    echo $sheep->name;
+?>
