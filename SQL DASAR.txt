@@ -1,0 +1,104 @@
+Jawaban menggunakan SQL Query
+
+SOAL Nomer 1
+Buatlah database dengan nama “myshop”. 
+<CREATE DATABASE myshop;>
+
+SOAL Nomer 2
+Buatlah tabel – tabel baru di dalam database myshop sesuai data-data berikut.
+users
+	field 		type
+	id 		INTEGER AUTO INCREMENT PRIMARY KEY
+	name 		varchar(255)
+	email 		varchar(255)
+	password	varchar(255)
+
+items
+	field 		type
+	id 		INTEGER AUTO INCREMENT PRIMARY KEY
+	name 		varchar(255)
+	description 	varchar(255)
+	price 		integer
+	stock 		integer
+	category_id 	integer (foreign key references id on categories)
+
+categories
+	field 	type
+	id 		INTEGER AUTO INCREMENT PRIMARY KEY
+	name 		varchar(255)
+
+<CREATE TABLE users (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255), email VARCHAR(255), password VARCHAR(255));>
+<CREATE TABLE items (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255), description VARCHAR(255), price INT, stock INT, category_id INT);>
+<CREATE TABLE categories (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255));>
+
+SOAL Nomer 3
+
+Masukkanlah data data berikut dengan perintah SQL “INSERT INTO . . ” ke dalam table yang sudah dibuat pada soal sebelumnya.
+
+users
+	name 		email 		password
+	John Doe 	john@doe.com 	john123
+	Jane Doe 	jane@doe.com 	jenita123
+
+categories
+	name
+	gadget
+	cloth
+	men
+	women
+	branded
+
+items
+	name 		description 				price 		stock 		category_id
+	Sumsang b50 	hape keren dari merek sumsang 		4000000 	100 		1
+	Uniklooh 	baju keren dari brand ternama 		500000 		50 		2
+	IMHO Watch 	jam tangan anak yang jujur banget 	2000000 	10 		1
+
+<INSERT INTO users VALUES (NULL, John Doe, john@doe.com, john123);>
+<INSERT INTO users VALUES (NULL, Jane Doe, jane@doe.com, jenita123);>
+
+<INSERT INTO categories VALUES (NULL, gadget);>
+<INSERT INTO categories VALUES (NULL, cloth);>
+<INSERT INTO categories VALUES (NULL, men);>
+<INSERT INTO categories VALUES (NULL, women);>
+<INSERT INTO categories VALUES (NULL, branded);>
+
+<INSERT INTO items VALUES (NULL, 'Sumsang b50', 'hape keren dari merek sumsang', 4000000, 100, 1);>
+<INSERT INTO items VALUES (NULL, 'Uniklooh', 'baju keren dari brand ternama', 500000, 50, 2);>
+<INSERT INTO items VALUES (NULL, 'IMHO Watch', 'jam tangan anak yang jujur banget', 2000000, 10, 1);>
+
+SOAL Nomer 4
+
+a. Mengambil data users
+
+Buatlah sebuah query untuk mendapatkan data seluruh user pada table users. Sajikan semua field pada table users KECUALI password nya.
+
+<SELECT id, name, email FROM users;>
+
+b. Mengambil data items
+
+Buatlah sebuah query untuk mendapatkan data item pada table items yang memiliki harga di atas 1000000 (satu juta).
+Buat sebuah query untuk mengambil data item pada table items yang memiliki name serupa atau mirip (like) dengan kata kunci “uniklo”, “watch”, atau “sang” (pilih salah satu saja).
+
+<SELECT * FROM items WHERE price>100000;>
+<SELECT * FROM items WHERE nama LIKE '%uniklo&';>
+<SELECT * FROM items WHERE nama LIKE '%watch%';>
+<SELECT * FROM items WHERE nama LIKE '%sang%';>
+
+c. Menampilkan data items join dengan kategori
+
+Buatlah sebuah query untuk menampilkan data items yang dilengkapi dengan data nama kategori di masing-masing items. 
+Berikut contoh tampilan data yang ingin didapatkan
+	name 		description 				price 		stock 	category_id 	kategori
+	Sumsang b50 	hape keren dari merek sumsang 		4000000 	100 	1 		gadget
+	Uniklooh 	baju keren dari brand ternama 		500000 		50 	2 		cloth
+	IMHO Watch 	jam tangan anak yang jujur banget 	2000000 	10 	1 		gadget
+
+<SELECT * FROM items INNER JOIN categories ON items.category_id = categories.id;>
+
+Soal 5 Mengubah Data dari Database
+
+Ubahlah data pada table items untuk item dengan nama sumsang harganya (price) menjadi 2500000. 
+Masukkan query pada text jawaban di nomor ke 5.
+
+<UPDATE items SET price = 2500000 WHERE items . id = 1;>
