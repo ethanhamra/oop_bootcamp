@@ -1,0 +1,38 @@
+[Materi/Info] IM 0720 Laravel Web Development, [30.07.20 09:00]
+#IntroOOP
+1. Hari ini kita akan lanjut membahas tentang OOP pada PHP. OOP yaitu Object Oriented Programming atau konsep pemrograman berbasis Object.
+
+[Materi/Info] IM 0720 Laravel Web Development, [30.07.20 09:01]
+2. Sesuai dengan namanya, OOP merupakan satu cara di dalam pemrograman untuk merancang program/aplikasi dengan menganggap berbagai komponen penyusun program yang akan dibuat sebagai sebuah Object atau Class.
+
+[Materi/Info] IM 0720 Laravel Web Development, [30.07.20 09:02]
+3. Misalkan kita anggap mobil adalah sebuah program. Maka program mobil tersebut memiliki property yang melekat padanya seperti merk, tipe, jumlah_seat, tipe_bahan_bakar, dsb. Selain terdapat property, di dalam program mobil juga terdapat fungsi atau metode untuk berjalan(), berhenti(), mengerem(), gas(), dan lain-lain.
+
+[Materi/Info] IM 0720 Laravel Web Development, [30.07.20 09:03]
+4. Lebih lengkapnya mari kita ikuti materi OOP dari playlist tutorial berikut (boleh pilih salah satu saja):
+Sekolah Koding: https://www.youtube.com/playlist?list=PLCZlgfAG0GXAPy7l4Wgwhz11GbuR-h2M6 
+Web Programming UNPAS: https://www.youtube.com/playlist?list=PLFIM0718LjIWvxxll-6wLXrC_16h_Bl_p
+
+[Materi/Info] IM 0720 Laravel Web Development, [30.07.20 09:04]
+#IntroOOP 
+5. Referensi Bacaan blog sanbercode :https://blog.sanbercode.com/docs/kurikulum-laravel-web-development/pekan-2-materi/hari-4-oop-php/ 
+
+password: IMLaravelJuli2020
+
+[Materi/Info] IM 0720 Laravel Web Development, [30.07.20 09:05]
+#IntroOOP 
+6. Latihan OOP bisa dibaca di blog sanbercode.com berikut: https://blog.sanbercode.com/docs/kurikulum-laravel-web-development/pekan-2-tugas-harian/hari-4-oop-php/ 
+
+password: IMLaravelJuli2020
+
+[Materi/Info] IM 0720 Laravel Web Development, [30.07.20 09:06]
+#IntroOOP 
+7. Ebook gratis bacaan tentang OOP : https://arsiteknologi.com/download-e-book-pemrograman-oop-modern-dengan-php-gratis.html
+
+[Materi/Info] IM 0720 Laravel Web Development, [30.07.20 12:20]
+#IntroOOP
+8. Pengumpulan tugas menggunakan repositori github seperti tugas kemarin. Upload ke repositori baru lalu kirim linknya ke dasbor sanbercode.com
+
+[Materi/Info] IM 0720 Laravel Web Development, [30.07.20 21:15]
+#INFO 
+Terkait Libur Idul Adha, maka Deadline Pengumpulan tugas OOP diundur ke besok Jum'at jam 18.00 WIB.
